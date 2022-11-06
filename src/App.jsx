@@ -3,12 +3,19 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./Components/NavBar";
 import Counter from "./Components/Counter";
 import ReducerCounter from "./Components/ReducerCounter";
+import Heading from "./Components/Heading";
 import "./App.css";
+import { Helmet } from "react-helmet-async";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <Helmet
+          title={"A counter app"}
+          description="Counter is a beautiful app"
+        />
+        <Heading />
         <NavBar />
         <Routes>
           <Route path="/" element={<Counter />} />
