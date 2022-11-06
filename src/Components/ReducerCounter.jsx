@@ -1,6 +1,7 @@
 import React from "react";
 import { useReducer } from "react";
 import countReducer from "../Hooks/countReducer";
+import "./ReducerCounter.css";
 
 function ReducerCounter() {
   const [count, dispatch] = useReducer(countReducer, 0);
@@ -8,10 +9,10 @@ function ReducerCounter() {
   return (
     <div className="App">
       <div>
-        <span style={{ fontSize: "11rem" }}>{count}</span>
+        <h1>{count}</h1>
       </div>
 
-      <div className="card">
+      <div className="btn">
         <button onClick={() => dispatch({ type: "increment" })}>
           increment
         </button>
