@@ -7,12 +7,12 @@ export default function NavBar() {
     <nav className="nav">
       <ul>
         <li>
-          <NavLink className="nav" to="/">
+          <NavLink className="nav-link" to="/">
             useCounter
           </NavLink>
         </li>
         <li>
-          <NavLink className="nav" to="/ReducerCounter">
+          <NavLink className="nav-link" to="/ReducerCounter">
             ReducerCounter
           </NavLink>
         </li>

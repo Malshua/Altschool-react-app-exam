@@ -16,9 +16,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: aquamarine;
-  margin-top: 10rem;
-  border-radius: 8px;
+  border-radius: 50px;
+  background: #a2ecdd;
+  box-shadow: 20px 20px 20px #8dcdc0, -20px -20px 20px #b7fffa;
+  margin-top: 8rem;
 }
 
 ul {

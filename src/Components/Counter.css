@@ -29,9 +29,9 @@ button:hover {
   background-color: #fff;
   border-color: rgb(255, 159, 28);
   transition: all 0.3s;
-  color: #9775fa;
+  color: rgb(255, 159, 28);
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 8rem;
 }

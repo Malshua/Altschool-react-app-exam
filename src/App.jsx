@@ -9,8 +9,8 @@ import { Helmet } from "react-helmet-async";
 
 function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
+    <BrowserRouter>
+      <div className="App">
         <Helmet
           title={"A counter app"}
           description="Counter is a beautiful app"
@@ -22,8 +22,8 @@ function App() {
           <Route path="/ReducerCounter" element={<ReducerCounter />} />
           <Route path="*" element={<Error />} />
         </Routes>
-      </BrowserRouter>
-    </div>
+      </div>
+    </BrowserRouter>
   );
 }
 
