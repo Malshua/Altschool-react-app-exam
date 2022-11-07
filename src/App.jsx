@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./Components/NavBar";
+import Error from "./Components/Error";
 import Counter from "./Components/Counter";
 import ReducerCounter from "./Components/ReducerCounter";
 import Heading from "./Components/Heading";
