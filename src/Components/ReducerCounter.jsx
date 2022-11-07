@@ -13,11 +13,19 @@ function ReducerCounter() {
       </div>
 
       <div className="btn">
-        <button onClick={() => dispatch({ type: "increment" })}>
+        <button
+          className="redbtn"
+          onClick={() => dispatch({ type: "increment" })}
+        >
           increment
         </button>
-        <button onClick={() => dispatch({ type: "reset" })}>reset</button>
-        <button onClick={() => dispatch({ type: "decrement" })}>
+        <button className="redbtn" onClick={() => dispatch({ type: "reset" })}>
+          reset
+        </button>
+        <button
+          className="redbtn"
+          onClick={() => dispatch({ type: "decrement" })}
+        >
           decrement
         </button>
       </div>

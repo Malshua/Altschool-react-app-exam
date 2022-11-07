@@ -17,5 +17,10 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
   color: #fff;
+  text-transform: lowercase;
+}
+
+.redbtn {
+  background-color: rgb(126, 81, 18);
   text-transform: uppercase;
 }
